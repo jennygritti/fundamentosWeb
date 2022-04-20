@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <!-- Conectando a página com o Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    <ul>
+
+    <!-- lista nao ordenada -->
+    <!-- colocando a referencia para ir para outra página -->
+    <ul class="menu">
         <li>
            <a href="index.html">Home</a>
         </li>
@@ -16,24 +22,63 @@
          </li>
     </ul>
 
-    <h1>Sobre a Jenny</h1>
-    
-    
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis placeat voluptate perspiciatis distinctio eveniet, id rerum officia nesciunt reiciendis possimus modi ad voluptatum eius alias dolorum aspernatur, tenetur nihil!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ipsa, possimus quas, nobis minima expedita nulla reprehenderit rerum laudantium impedit accusamus obcaecati! Ut aliquid aliquam et! Magni commodi assumenda id.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid odio, maxime fugit minus quasi labore harum enim sint ut dolore eligendi quae laboriosam sapiente inventore perspiciatis officia! Totam, incidunt velit!
-    </p>
+    <h1 class="center">Sobre a Jenny</h1>
+    <div class="container">
 
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magnam ab quidem, consequuntur sed at recusandae fuga soluta cupiditate veritatis, placeat, expedita explicabo nam. Qui minus velit possimus deleniti? Unde?
-    </p>
+        <div >
+            <!-- Imagem -->
+            <!-- Imagem baixada no pc -->
+            <!-- é possível colocar mais de uma classe no mesmo lugar -->
+            <img class="br50 wh300 p30" src="assets/cabelo-vermelho-cereja-1-810x506.jpg" alt="Minha foto">
+        </div>
 
-    <img src="assets/cabelo-vermelho-cereja-1-810x506.jpg" alt="Minha foto">
+        <div class="p30">
+            <!-- Paragrafo -->
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis placeat voluptate perspiciatis distinctio eveniet, id rerum officia nesciunt reiciendis possimus modi ad voluptatum eius alias dolorum aspernatur, tenetur nihil!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ipsa, possimus quas, nobis minima expedita nulla reprehenderit rerum laudantium impedit accusamus obcaecati! Ut aliquid aliquam et! Magni commodi assumenda id.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid odio, maxime fugit minus quasi labore harum enim sint ut dolore eligendi quae laboriosam sapiente inventore perspiciatis officia! Totam, incidunt velit!
+            </p>
+
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magnam ab quidem, consequuntur sed at recusandae fuga soluta cupiditate veritatis, placeat, expedita explicabo nam. Qui minus velit possimus deleniti? Unde?
+            </p>
+        </div>
+        
+    </div>
+
+    <!-- Vídeo -->
+    <!-- Para pegar o link do vídeo, copiar ele de forma incorporada -->
+    <h2 class="center">Meu video</h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4sCkAvh50Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
-    <h2>Meu video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4sCkAvh50Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- coloca uma linha devisória -->
+    <hr> 
 
+    <!-- rodapé da página -->
+    <footer>
+
+        <div class="container">
+            <a href="https://github.com/" target="blank">
+                <img class="tmsocial" src="assets/github.png" alt="Github">
+            </a>
+
+            <a href="https://www.instagram.com/" target="blank">
+                <img class="tmsocial" src="assets/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/" target="blank">
+                <img class="tmsocial" src="assets/linkedin.png" alt="LinkedIn">
+            </a>
+
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Jenny Gritti &copy;
+        </p>
+        
+    </footer>
 
 </body>
 </html>

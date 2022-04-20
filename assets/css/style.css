@@ -1,0 +1,60 @@
+/* define o estilo */
+
+/* Estilo da página Index.html */
+.justify{
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Como fica a disposição dos elementos */
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Como os textos do menu vão ficar */
+.menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+/* Cor dos textos no menu */
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* Quando passa o mouse por cima, o texto muda de cor */
+.menu li a:hover{
+    color: gray;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.br50{
+    border-radius: 50%;
+}
+
+.wh300{
+    width: 300px;
+    height: 300px;
+}
+
+.tmsocial{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+.ml50{
+    margin-left: 50px;
+}
